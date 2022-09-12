@@ -52,107 +52,260 @@ export default function Home() {
       </section>
       <section>
         <section className='mx-20 my-10'>
-          <div>Site of the day.</div>
+          <div className='my-10 flex flex-row '>
+            <div className='text-lg font-semibold'>Sites of the day</div>
+            <div className='my-auto mx-2'>Previous Winners</div>
+          </div>
+
           <section className='flex flex-row justify-between'>
-            <div className ='flex flex-col divide-y divide-gray-300 w-72 bg-gray-200 '>
-              <div className = ''>
+            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
+              <div className = 'flex item-center justify-center relative overflow-hidden '>
                 <Image
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
                  src = "/mrBeast.png"
-                 height = {290}
+                 height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
               </div>
               <div className = 'flex flex-col mx-5'>
-                <span>Karina Sirqueira Gallery</span>
-                <span>From United States</span>
+                <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
+                <div className='flex flex-row justify-between'>
+                  <span className=' text-xs mb-5'>From United States</span>
+                  <span className=' text-xs'>September 11, 2022</span>
+                </div>
+
               </div>
-              <div className = 'flex mx-5' >
+              <div className = 'flex mx-5 ' >
                 <Image
-                 className='rounded-full' 
+                 className='rounded-full overflow-hidden' 
                  src = "/avatar.jpeg"
                  height = {18}
-                 width = {18}
+                 width = {32}
                  alt = 'search logo'                 
                 />
-                <p>BY KARINA SIRQUEIRA</p>
+                <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-300 w-1/4 bg-gray-200'>
-              <div className = ''>
+            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
+              <div className = 'flex item-center justify-center relative overflow-hidden '>
                 <Image
-                 src = "/search.svg"
-                 height = {18}
-                 width = {18}
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 src = "/mrBeast.png"
+                 height = {220}
+                 width = {290}
                  alt = 'search logo'               
                 />
               </div>
-              <div className = 'flex flex-col'>
-                <span>Karina Sirqueira Gallery</span>
-                <span>From United States</span>
+              <div className = 'flex flex-col mx-5'>
+                <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
+                <div className='flex flex-row justify-between'>
+                  <span className=' text-xs mb-5'>From United States</span>
+                  <span className=' text-xs'>September 11, 2022</span>
+                </div>
+
               </div>
-              <div className = 'flex' >
+              <div className = 'flex mx-5 ' >
                 <Image
-                 src = "/search.svg"
+                 className='rounded-full overflow-hidden' 
+                 src = "/avatar.jpeg"
                  height = {18}
-                 width = {18}
+                 width = {32}
                  alt = 'search logo'                 
                 />
-                <p>BY KARINA SIRQUEIRA</p>
+                <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-300 w-1/4 bg-gray-200'>
-              <div className = ''>
+            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
+              <div className = 'flex item-center justify-center relative overflow-hidden '>
                 <Image
-                 src = "/search.svg"
-                 height = {18}
-                 width = {18}
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 src = "/mrBeast.png"
+                 height = {220}
+                 width = {290}
                  alt = 'search logo'               
                 />
               </div>
-              <div className = 'flex flex-col'>
-                <span>Karina Sirqueira Gallery</span>
-                <span>From United States</span>
+              <div className = 'flex flex-col mx-5'>
+                <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
+                <div className='flex flex-row justify-between'>
+                  <span className=' text-xs mb-5'>From United States</span>
+                  <span className=' text-xs'>September 11, 2022</span>
+                </div>
+
               </div>
-              <div className = 'flex' >
+              <div className = 'flex mx-5 ' >
                 <Image
-                 src = "/search.svg"
+                 className='rounded-full overflow-hidden' 
+                 src = "/avatar.jpeg"
                  height = {18}
-                 width = {18}
+                 width = {32}
                  alt = 'search logo'                 
                 />
-                <p>BY KARINA SIRQUEIRA</p>
+                <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-300 w-1/4 bg-gray-200'>
-              <div className = ''>
+            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
+              <div className = 'flex item-center justify-center relative overflow-hidden '>
                 <Image
-                 src = "/search.svg"
-                 height = {18}
-                 width = {18}
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 src = "/mrBeast.png"
+                 height = {220}
+                 width = {290}
                  alt = 'search logo'               
                 />
               </div>
-              <div className = 'flex flex-col'>
-                <span>Karina Sirqueira Gallery</span>
-                <span>From United States</span>
+              <div className = 'flex flex-col mx-5'>
+                <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
+                <div className='flex flex-row justify-between'>
+                  <span className=' text-xs mb-5'>From United States</span>
+                  <span className=' text-xs'>September 11, 2022</span>
+                </div>
+
               </div>
-              <div className = 'flex' >
+              <div className = 'flex mx-5 ' >
                 <Image
-                 src = "/search.svg"
+                 className='rounded-full overflow-hidden' 
+                 src = "/avatar.jpeg"
                  height = {18}
-                 width = {18}
+                 width = {32}
                  alt = 'search logo'                 
                 />
-                <p>BY KARINA SIRQUEIRA</p>
+                <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section className='mx-20 my-10'>
+          <div className='my-10 flex flex-row '>
+            <div className='text-lg font-semibold'>Nominees</div>
+            <div className='my-auto mx-2'>We Need Your Vote</div>
+          </div>
+
+          <section className='flex flex-row justify-between'>
+            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
+              <div className = 'flex item-center justify-center relative overflow-hidden '>
+                <Image
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 src = "/mrBeast.png"
+                 height = {220}
+                 width = {290}
+                 alt = 'search logo'               
+                />
+              </div>
+              <div className = 'flex flex-col mx-5'>
+                <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
+                <div className='flex flex-row justify-between'>
+                  <span className=' text-xs mb-5'>From United States</span>
+                  <span className=' text-xs'>September 11, 2022</span>
+                </div>
+
+              </div>
+              <div className = 'flex mx-5 ' >
+                <Image
+                 className='rounded-full overflow-hidden' 
+                 src = "/avatar.jpeg"
+                 height = {18}
+                 width = {32}
+                 alt = 'search logo'                 
+                />
+                <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
+              </div>
+            </div>
+            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
+              <div className = 'flex item-center justify-center relative overflow-hidden '>
+                <Image
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 src = "/mrBeast.png"
+                 height = {220}
+                 width = {290}
+                 alt = 'search logo'               
+                />
+              </div>
+              <div className = 'flex flex-col mx-5'>
+                <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
+                <div className='flex flex-row justify-between'>
+                  <span className=' text-xs mb-5'>From United States</span>
+                  <span className=' text-xs'>September 11, 2022</span>
+                </div>
+
+              </div>
+              <div className = 'flex mx-5 ' >
+                <Image
+                 className='rounded-full overflow-hidden' 
+                 src = "/avatar.jpeg"
+                 height = {18}
+                 width = {32}
+                 alt = 'search logo'                 
+                />
+                <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
+              </div>
+            </div>
+            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
+              <div className = 'flex item-center justify-center relative overflow-hidden '>
+                <Image
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 src = "/mrBeast.png"
+                 height = {220}
+                 width = {290}
+                 alt = 'search logo'               
+                />
+              </div>
+              <div className = 'flex flex-col mx-5'>
+                <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
+                <div className='flex flex-row justify-between'>
+                  <span className=' text-xs mb-5'>From United States</span>
+                  <span className=' text-xs'>September 11, 2022</span>
+                </div>
+
+              </div>
+              <div className = 'flex mx-5 ' >
+                <Image
+                 className='rounded-full overflow-hidden' 
+                 src = "/avatar.jpeg"
+                 height = {18}
+                 width = {32}
+                 alt = 'search logo'                 
+                />
+                <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
+              </div>
+            </div>
+            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
+              <div className = 'flex item-center justify-center relative overflow-hidden '>
+                <Image
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 src = "/mrBeast.png"
+                 height = {220}
+                 width = {290}
+                 alt = 'search logo'               
+                />
+              </div>
+              <div className = 'flex flex-col mx-5'>
+                <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
+                <div className='flex flex-row justify-between'>
+                  <span className=' text-xs mb-5'>From United States</span>
+                  <span className=' text-xs'>September 11, 2022</span>
+                </div>
+
+              </div>
+              <div className = 'flex mx-5 ' >
+                <Image
+                 className='rounded-full overflow-hidden' 
+                 src = "/avatar.jpeg"
+                 height = {18}
+                 width = {32}
+                 alt = 'search logo'                 
+                />
+                <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
           </section>
         </section>
       </section>
 
-      <footer>
-
+      <footer className='divide-y divide-gray-200'>
+        <section></section>
+        <section></section>
       </footer>
     </div>
   )
