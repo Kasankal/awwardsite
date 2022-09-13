@@ -70,15 +70,15 @@ export default function Home() {
               </div>
               <div className='flex flex-col relative'>
                 <span className='rounded-r-full rounded-b-full rounded-l-full border-4 border-yellow-400 border-t-red-400/0 w-20 h-20 text-center py-5 text-xl'>7.75</span>
-                <span className='text-xs text-center'>DESIGN</span>
+                <span className='text-xs text-center'>USABILITY</span>
               </div>
               <div className='flex flex-col relative'>
                 <span className='rounded-r-full rounded-b-full rounded-t-full border-4 border-green-400 border-l-red-400/0 w-20 h-20 text-center py-5 text-xl'>6.95</span>
-                <span className='text-xs text-center'>DESIGN</span>
+                <span className='text-xs text-center'>CREATIVITY</span>
               </div>
               <div className='flex flex-col relative'>
                 <span className='rounded-r-full rounded-b-full rounded-t-full border-4 border-purple-400 border-l-red-400/0 w-20 h-20 text-center py-5 text-xl'>7.44</span>
-                <span className='text-xs text-center'>DESIGN</span>
+                <span className='text-xs text-center'>CONTENT</span>
               </div>
             </section>
           </div>
