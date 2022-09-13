@@ -42,14 +42,15 @@ export default function Home() {
         </nav>
       </section>
       
-      <section className='flex relative '>
+      <section className='group flex relative bg-black '>
         <Image
-        className='flex absolute'
+        className='flex absolute group-hover:opacity-75 transition-all ease-in-out duration-200'
         src= "/drone2.jpg"
         height = {720}
         width = {2160}
         alt = "homepage image"
-          />
+          />          
+
         <section className='flex flex-col absolute text-white justify-around  w-full h-full '>
           <div className='flex  flex-row mt-10 mx-20 justify-between'>
             <div>Site of the Day    September 13,2022</div>
@@ -102,9 +103,9 @@ export default function Home() {
 
           <section className='flex flex-row justify-between'>
             <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden '>
+              <div className = 'flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125 hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
