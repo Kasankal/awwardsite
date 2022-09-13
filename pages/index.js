@@ -30,8 +30,8 @@ export default function Home() {
                 alt = 'search logo'
                 />
               </section>
-              <section className='my-auto '>
-                <span className='text-2xl font-serif'> AWWARDSITE.</span>
+              <section className='my-auto pl-80 '>
+                <span className='text-4xl font-serif text-center'> AWWARDSITE.</span>
               </section>
               <section className='my-auto px-4'>
                 <p>are you a member?<a className='font-serif text-lg'>Register/Login</a></p>
@@ -61,22 +61,30 @@ export default function Home() {
             </div>
           </div>
           <div className='mx-auto'>
-            <section className='text-center'>Henry Northington</section>
-            <section className='text-sm'>BY MASON PAJUNAS FROM UNITED STATES WITH 7.35</section>
-            <section className='flex flex-row'>
+            <section className='text-center text-4xl text-bold font-bold'>Henry Northington</section>
+            <section className='text-sm'>BY <span className='text-blue-200 font-semibold'>MASON PAJUNAS</span> FROM UNITED STATES WITH 7.35</section>
+            <section className='flex flex-row mt-5'>
               <div className='flex flex-col relative'>
-                <span></span>
-                <span></span>
-                <span className='text-xs'>DESIGN</span>
+                <span className='rounded-r-full rounded-b-full rounded-t-full border-4 border-red-400 border-l-red-400/0 w-20 h-20 text-center py-5 text-xl'>7.44</span>
+                <span className='text-xs text-center'>DESIGN</span>
               </div>
-              <div></div>
-              <div></div>
-              <div></div>
+              <div className='flex flex-col relative'>
+                <span className='rounded-r-full rounded-b-full rounded-l-full border-4 border-yellow-400 border-t-red-400/0 w-20 h-20 text-center py-5 text-xl'>7.75</span>
+                <span className='text-xs text-center'>DESIGN</span>
+              </div>
+              <div className='flex flex-col relative'>
+                <span className='rounded-r-full rounded-b-full rounded-t-full border-4 border-green-400 border-l-red-400/0 w-20 h-20 text-center py-5 text-xl'>6.95</span>
+                <span className='text-xs text-center'>DESIGN</span>
+              </div>
+              <div className='flex flex-col relative'>
+                <span className='rounded-r-full rounded-b-full rounded-t-full border-4 border-purple-400 border-l-red-400/0 w-20 h-20 text-center py-5 text-xl'>7.44</span>
+                <span className='text-xs text-center'>DESIGN</span>
+              </div>
             </section>
           </div>
           <div className='flex flex-row justify-between mx-20'>
             <div className='flex flex-row'>
-              <div className='rounded-full bg-blue-400 text-sm px-2   border border-white/0'>Visit Site</div>
+              <div className='rounded-full bg-blue-300 text-sm px-2   border border-white/0'>Visit Site</div>
               <div className='rounded-full text-sm px-3 ml-5 border-white border  '>Collect</div>
             </div>
             <div>
