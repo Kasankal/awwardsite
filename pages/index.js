@@ -44,7 +44,7 @@ export default function Home() {
       
       <section className='group flex relative bg-black '>
         <Image
-        className='flex absolute group-hover:opacity-75 transition-all ease-in-out duration-200'
+        className='flex absolute group-hover:opacity-75 transition-all ease-in-out duration-500'
         src= "/drone2.jpg"
         height = {720}
         width = {2160}
@@ -102,15 +102,30 @@ export default function Home() {
           </div>
 
           <section className='flex flex-row justify-between'>
-            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden bg-black '>
+            <div className =' group hover:-translate-y-2  flex flex-col divide-y divide-gray-200 w-72 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out'>
+              <div className = 'relative flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125 hover:opacity-50'
+                 className='scale-100 absolute w-full h-full transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
+                <section className='opacity-0 group-hover:opacity-100 flex flex-col absolute justify-between my-5 w-full h-full px-5 pb-10 transition-all duration-300 ease-in-out'>
+                  <div className='flex flex-row stroke-white fill-white stroke text-white justify-between' >
+                    <div className='flex flex-row '>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.266333 10.967571 12.541024 8.3125 12.933594 L 8.3125 9.0898438 L 9.8652344 9.0898438 L 10.109375 7.5136719 L 8.3125 7.5136719 L 8.3125 6.6503906 C 8.3125 5.9953906 8.5256719 5.4140625 9.1386719 5.4140625 L 10.123047 5.4140625 L 10.123047 4.0371094 C 9.9500469 4.0141094 9.5845781 3.9628906 8.8925781 3.9628906 C 7.4485781 3.9628906 6.6015625 4.7258906 6.6015625 6.4628906 L 6.6015625 7.5117188 L 5.1171875 7.5117188 L 5.1171875 9.0898438 L 6.6035156 9.0898438 L 6.6035156 12.919922 C 3.9897868 12.492118 2 10.237066 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.543488 10.543488 13 7.5 13 C 4.4565116 13 2 10.543488 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z M 9.1113281 4.7519531 C 8.2683281 4.7519531 7.5820312 5.4353438 7.5820312 6.2773438 C 7.5820312 6.4343438 7.6367188 6.5395312 7.6367188 6.6445312 C 6.3727188 6.5925313 5.3229375 5.895 4.5859375 5 C 4.4279375 5.211 4.375 5.4733281 4.375 5.7363281 C 4.375 6.2623281 4.5799531 6.8419375 5.0019531 7.2109375 C 4.7219531 7.1729375 4.586 7.105 4.375 7 C 4.375 7.737 4.8442969 8.2248125 5.5292969 8.3828125 C 5.5292969 8.3828125 5.2654219 8.4355469 5.1074219 8.4355469 C 4.9874219 8.4355469 4.84375 8.3828125 4.84375 8.3828125 C 5.05475 8.9618125 5.580625 9.4335938 6.265625 9.4335938 C 5.739625 9.8025937 5.0541406 10 4.3691406 10 L 4 10 C 4.375 10.5 5.2494063 10.750953 6.3164062 10.751953 C 9.1074063 10.751953 10.636719 8.4355469 10.636719 6.4355469 L 10.636719 6.2246094 C 10.900719 6.0136094 11.163 5.7505469 11.375 5.4355469 C 11.059 5.5935469 10.796469 5.6442656 10.480469 5.6972656 C 10.796469 5.4872656 11.059062 5.2234688 11.164062 4.8554688 C 10.901063 5.0124687 10.585797 5.1716094 10.216797 5.2246094 C 9.9527969 4.9096094 9.5333281 4.7519531 9.1113281 4.7519531 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 5.5 5 C 4.125 5 3 6.125 3 7.5 C 3 8.875 4.125 10 5.5 10 C 6.875 10 8 8.875 8 7.5 L 8 7 L 6 7 L 6 8 L 6.796875 8 C 6.578125 8.554688 6.136719 9 5.5 9 C 4.664063 9 4 8.335938 4 7.5 C 4 6.664063 4.664063 6 5.5 6 C 5.882813 6 6.222656 6.140625 6.488281 6.371094 L 7.148438 5.621094 C 6.707031 5.234375 6.128906 5 5.5 5 Z M 10 6 L 10 7 L 9 7 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 12 8 L 12 7 L 11 7 L 11 6 Z"/></svg>                      
+                    </div> 
+                    <div className='flex '>
+                     <div className='rounded-full px-2 text-sm border border-white'>Collect</div>                       
+                    </div> 
+                  </div>
+                  <div className='fill-white stroke-white flex justify-end'>
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="32px" height="32px"><path d="M 7.5 1.035156 C 3.917969 1.035156 1 3.941406 1 7.515625 L 1 8 L 2 8 L 2 7.515625 C 2 4.484375 4.457031 2.035156 7.5 2.035156 C 9.132813 2.035156 10.589844 2.75 11.59375 3.875 L 10.464844 5 L 14 5 L 14 1.476563 L 12.300781 3.167969 C 11.113281 1.863281 9.40625 1.035156 7.5 1.035156 Z M 13 7 L 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 5.859375 13 4.402344 12.277344 3.394531 11.140625 L 4.535156 10 L 1 10 L 1 13.535156 L 2.6875 11.847656 C 3.878906 13.164063 5.589844 14 7.5 14 C 11.085938 14 14 11.085938 14 7.5 L 14 7 Z"/></svg>
+                  </div>
+                </section>
               </div>
               <div className = 'flex flex-col mx-5'>
                 <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
@@ -131,15 +146,30 @@ export default function Home() {
                 <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden '>
+            <div className =' group hover:-translate-y-2  flex flex-col divide-y divide-gray-200 w-72 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out'>
+              <div className = 'relative flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 className='scale-100 absolute w-full h-full transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
+                <section className='opacity-0 group-hover:opacity-100 flex flex-col absolute justify-between my-5 w-full h-full px-5 pb-10 transition-all duration-300 ease-in-out'>
+                  <div className='flex flex-row stroke-white fill-white stroke text-white justify-between' >
+                    <div className='flex flex-row '>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.266333 10.967571 12.541024 8.3125 12.933594 L 8.3125 9.0898438 L 9.8652344 9.0898438 L 10.109375 7.5136719 L 8.3125 7.5136719 L 8.3125 6.6503906 C 8.3125 5.9953906 8.5256719 5.4140625 9.1386719 5.4140625 L 10.123047 5.4140625 L 10.123047 4.0371094 C 9.9500469 4.0141094 9.5845781 3.9628906 8.8925781 3.9628906 C 7.4485781 3.9628906 6.6015625 4.7258906 6.6015625 6.4628906 L 6.6015625 7.5117188 L 5.1171875 7.5117188 L 5.1171875 9.0898438 L 6.6035156 9.0898438 L 6.6035156 12.919922 C 3.9897868 12.492118 2 10.237066 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.543488 10.543488 13 7.5 13 C 4.4565116 13 2 10.543488 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z M 9.1113281 4.7519531 C 8.2683281 4.7519531 7.5820312 5.4353438 7.5820312 6.2773438 C 7.5820312 6.4343438 7.6367188 6.5395312 7.6367188 6.6445312 C 6.3727188 6.5925313 5.3229375 5.895 4.5859375 5 C 4.4279375 5.211 4.375 5.4733281 4.375 5.7363281 C 4.375 6.2623281 4.5799531 6.8419375 5.0019531 7.2109375 C 4.7219531 7.1729375 4.586 7.105 4.375 7 C 4.375 7.737 4.8442969 8.2248125 5.5292969 8.3828125 C 5.5292969 8.3828125 5.2654219 8.4355469 5.1074219 8.4355469 C 4.9874219 8.4355469 4.84375 8.3828125 4.84375 8.3828125 C 5.05475 8.9618125 5.580625 9.4335938 6.265625 9.4335938 C 5.739625 9.8025937 5.0541406 10 4.3691406 10 L 4 10 C 4.375 10.5 5.2494063 10.750953 6.3164062 10.751953 C 9.1074063 10.751953 10.636719 8.4355469 10.636719 6.4355469 L 10.636719 6.2246094 C 10.900719 6.0136094 11.163 5.7505469 11.375 5.4355469 C 11.059 5.5935469 10.796469 5.6442656 10.480469 5.6972656 C 10.796469 5.4872656 11.059062 5.2234688 11.164062 4.8554688 C 10.901063 5.0124687 10.585797 5.1716094 10.216797 5.2246094 C 9.9527969 4.9096094 9.5333281 4.7519531 9.1113281 4.7519531 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 5.5 5 C 4.125 5 3 6.125 3 7.5 C 3 8.875 4.125 10 5.5 10 C 6.875 10 8 8.875 8 7.5 L 8 7 L 6 7 L 6 8 L 6.796875 8 C 6.578125 8.554688 6.136719 9 5.5 9 C 4.664063 9 4 8.335938 4 7.5 C 4 6.664063 4.664063 6 5.5 6 C 5.882813 6 6.222656 6.140625 6.488281 6.371094 L 7.148438 5.621094 C 6.707031 5.234375 6.128906 5 5.5 5 Z M 10 6 L 10 7 L 9 7 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 12 8 L 12 7 L 11 7 L 11 6 Z"/></svg>                      
+                    </div> 
+                    <div className='flex '>
+                     <div className='rounded-full px-2 text-sm border border-white'>Collect</div>                       
+                    </div> 
+                  </div>
+                  <div className='fill-white stroke-white flex justify-end'>
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="32px" height="32px"><path d="M 7.5 1.035156 C 3.917969 1.035156 1 3.941406 1 7.515625 L 1 8 L 2 8 L 2 7.515625 C 2 4.484375 4.457031 2.035156 7.5 2.035156 C 9.132813 2.035156 10.589844 2.75 11.59375 3.875 L 10.464844 5 L 14 5 L 14 1.476563 L 12.300781 3.167969 C 11.113281 1.863281 9.40625 1.035156 7.5 1.035156 Z M 13 7 L 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 5.859375 13 4.402344 12.277344 3.394531 11.140625 L 4.535156 10 L 1 10 L 1 13.535156 L 2.6875 11.847656 C 3.878906 13.164063 5.589844 14 7.5 14 C 11.085938 14 14 11.085938 14 7.5 L 14 7 Z"/></svg>
+                  </div>
+                </section>
               </div>
               <div className = 'flex flex-col mx-5'>
                 <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
@@ -160,15 +190,30 @@ export default function Home() {
                 <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden '>
+            <div className =' group hover:-translate-y-2  flex flex-col divide-y divide-gray-200 w-72 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out'>
+              <div className = 'relative flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 className='scale-100 absolute w-full h-full transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
+                <section className='opacity-0 group-hover:opacity-100 flex flex-col absolute justify-between my-5 w-full h-full px-5 pb-10 transition-all duration-300 ease-in-out'>
+                  <div className='flex flex-row stroke-white fill-white stroke text-white justify-between' >
+                    <div className='flex flex-row '>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.266333 10.967571 12.541024 8.3125 12.933594 L 8.3125 9.0898438 L 9.8652344 9.0898438 L 10.109375 7.5136719 L 8.3125 7.5136719 L 8.3125 6.6503906 C 8.3125 5.9953906 8.5256719 5.4140625 9.1386719 5.4140625 L 10.123047 5.4140625 L 10.123047 4.0371094 C 9.9500469 4.0141094 9.5845781 3.9628906 8.8925781 3.9628906 C 7.4485781 3.9628906 6.6015625 4.7258906 6.6015625 6.4628906 L 6.6015625 7.5117188 L 5.1171875 7.5117188 L 5.1171875 9.0898438 L 6.6035156 9.0898438 L 6.6035156 12.919922 C 3.9897868 12.492118 2 10.237066 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.543488 10.543488 13 7.5 13 C 4.4565116 13 2 10.543488 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z M 9.1113281 4.7519531 C 8.2683281 4.7519531 7.5820312 5.4353438 7.5820312 6.2773438 C 7.5820312 6.4343438 7.6367188 6.5395312 7.6367188 6.6445312 C 6.3727188 6.5925313 5.3229375 5.895 4.5859375 5 C 4.4279375 5.211 4.375 5.4733281 4.375 5.7363281 C 4.375 6.2623281 4.5799531 6.8419375 5.0019531 7.2109375 C 4.7219531 7.1729375 4.586 7.105 4.375 7 C 4.375 7.737 4.8442969 8.2248125 5.5292969 8.3828125 C 5.5292969 8.3828125 5.2654219 8.4355469 5.1074219 8.4355469 C 4.9874219 8.4355469 4.84375 8.3828125 4.84375 8.3828125 C 5.05475 8.9618125 5.580625 9.4335938 6.265625 9.4335938 C 5.739625 9.8025937 5.0541406 10 4.3691406 10 L 4 10 C 4.375 10.5 5.2494063 10.750953 6.3164062 10.751953 C 9.1074063 10.751953 10.636719 8.4355469 10.636719 6.4355469 L 10.636719 6.2246094 C 10.900719 6.0136094 11.163 5.7505469 11.375 5.4355469 C 11.059 5.5935469 10.796469 5.6442656 10.480469 5.6972656 C 10.796469 5.4872656 11.059062 5.2234688 11.164062 4.8554688 C 10.901063 5.0124687 10.585797 5.1716094 10.216797 5.2246094 C 9.9527969 4.9096094 9.5333281 4.7519531 9.1113281 4.7519531 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 5.5 5 C 4.125 5 3 6.125 3 7.5 C 3 8.875 4.125 10 5.5 10 C 6.875 10 8 8.875 8 7.5 L 8 7 L 6 7 L 6 8 L 6.796875 8 C 6.578125 8.554688 6.136719 9 5.5 9 C 4.664063 9 4 8.335938 4 7.5 C 4 6.664063 4.664063 6 5.5 6 C 5.882813 6 6.222656 6.140625 6.488281 6.371094 L 7.148438 5.621094 C 6.707031 5.234375 6.128906 5 5.5 5 Z M 10 6 L 10 7 L 9 7 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 12 8 L 12 7 L 11 7 L 11 6 Z"/></svg>                      
+                    </div> 
+                    <div className='flex '>
+                     <div className='rounded-full px-2 text-sm border border-white'>Collect</div>                       
+                    </div> 
+                  </div>
+                  <div className='fill-white stroke-white flex justify-end'>
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="32px" height="32px"><path d="M 7.5 1.035156 C 3.917969 1.035156 1 3.941406 1 7.515625 L 1 8 L 2 8 L 2 7.515625 C 2 4.484375 4.457031 2.035156 7.5 2.035156 C 9.132813 2.035156 10.589844 2.75 11.59375 3.875 L 10.464844 5 L 14 5 L 14 1.476563 L 12.300781 3.167969 C 11.113281 1.863281 9.40625 1.035156 7.5 1.035156 Z M 13 7 L 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 5.859375 13 4.402344 12.277344 3.394531 11.140625 L 4.535156 10 L 1 10 L 1 13.535156 L 2.6875 11.847656 C 3.878906 13.164063 5.589844 14 7.5 14 C 11.085938 14 14 11.085938 14 7.5 L 14 7 Z"/></svg>
+                  </div>
+                </section>
               </div>
               <div className = 'flex flex-col mx-5'>
                 <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
@@ -189,15 +234,30 @@ export default function Home() {
                 <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden '>
+            <div className =' group hover:-translate-y-2  flex flex-col divide-y divide-gray-200 w-72 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out'>
+              <div className = 'relative flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 className='scale-100 absolute w-full h-full transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
+                <section className='opacity-0 group-hover:opacity-100 flex flex-col absolute justify-between my-5 w-full h-full px-5 pb-10 transition-all duration-300 ease-in-out'>
+                  <div className='flex flex-row stroke-white fill-white stroke text-white justify-between' >
+                    <div className='flex flex-row '>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.266333 10.967571 12.541024 8.3125 12.933594 L 8.3125 9.0898438 L 9.8652344 9.0898438 L 10.109375 7.5136719 L 8.3125 7.5136719 L 8.3125 6.6503906 C 8.3125 5.9953906 8.5256719 5.4140625 9.1386719 5.4140625 L 10.123047 5.4140625 L 10.123047 4.0371094 C 9.9500469 4.0141094 9.5845781 3.9628906 8.8925781 3.9628906 C 7.4485781 3.9628906 6.6015625 4.7258906 6.6015625 6.4628906 L 6.6015625 7.5117188 L 5.1171875 7.5117188 L 5.1171875 9.0898438 L 6.6035156 9.0898438 L 6.6035156 12.919922 C 3.9897868 12.492118 2 10.237066 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.543488 10.543488 13 7.5 13 C 4.4565116 13 2 10.543488 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z M 9.1113281 4.7519531 C 8.2683281 4.7519531 7.5820312 5.4353438 7.5820312 6.2773438 C 7.5820312 6.4343438 7.6367188 6.5395312 7.6367188 6.6445312 C 6.3727188 6.5925313 5.3229375 5.895 4.5859375 5 C 4.4279375 5.211 4.375 5.4733281 4.375 5.7363281 C 4.375 6.2623281 4.5799531 6.8419375 5.0019531 7.2109375 C 4.7219531 7.1729375 4.586 7.105 4.375 7 C 4.375 7.737 4.8442969 8.2248125 5.5292969 8.3828125 C 5.5292969 8.3828125 5.2654219 8.4355469 5.1074219 8.4355469 C 4.9874219 8.4355469 4.84375 8.3828125 4.84375 8.3828125 C 5.05475 8.9618125 5.580625 9.4335938 6.265625 9.4335938 C 5.739625 9.8025937 5.0541406 10 4.3691406 10 L 4 10 C 4.375 10.5 5.2494063 10.750953 6.3164062 10.751953 C 9.1074063 10.751953 10.636719 8.4355469 10.636719 6.4355469 L 10.636719 6.2246094 C 10.900719 6.0136094 11.163 5.7505469 11.375 5.4355469 C 11.059 5.5935469 10.796469 5.6442656 10.480469 5.6972656 C 10.796469 5.4872656 11.059062 5.2234688 11.164062 4.8554688 C 10.901063 5.0124687 10.585797 5.1716094 10.216797 5.2246094 C 9.9527969 4.9096094 9.5333281 4.7519531 9.1113281 4.7519531 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 5.5 5 C 4.125 5 3 6.125 3 7.5 C 3 8.875 4.125 10 5.5 10 C 6.875 10 8 8.875 8 7.5 L 8 7 L 6 7 L 6 8 L 6.796875 8 C 6.578125 8.554688 6.136719 9 5.5 9 C 4.664063 9 4 8.335938 4 7.5 C 4 6.664063 4.664063 6 5.5 6 C 5.882813 6 6.222656 6.140625 6.488281 6.371094 L 7.148438 5.621094 C 6.707031 5.234375 6.128906 5 5.5 5 Z M 10 6 L 10 7 L 9 7 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 12 8 L 12 7 L 11 7 L 11 6 Z"/></svg>                      
+                    </div> 
+                    <div className='flex '>
+                     <div className='rounded-full px-2 text-sm border border-white'>Collect</div>                       
+                    </div> 
+                  </div>
+                  <div className='fill-white stroke-white flex justify-end'>
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="32px" height="32px"><path d="M 7.5 1.035156 C 3.917969 1.035156 1 3.941406 1 7.515625 L 1 8 L 2 8 L 2 7.515625 C 2 4.484375 4.457031 2.035156 7.5 2.035156 C 9.132813 2.035156 10.589844 2.75 11.59375 3.875 L 10.464844 5 L 14 5 L 14 1.476563 L 12.300781 3.167969 C 11.113281 1.863281 9.40625 1.035156 7.5 1.035156 Z M 13 7 L 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 5.859375 13 4.402344 12.277344 3.394531 11.140625 L 4.535156 10 L 1 10 L 1 13.535156 L 2.6875 11.847656 C 3.878906 13.164063 5.589844 14 7.5 14 C 11.085938 14 14 11.085938 14 7.5 L 14 7 Z"/></svg>
+                  </div>
+                </section>
               </div>
               <div className = 'flex flex-col mx-5'>
                 <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
@@ -218,24 +278,40 @@ export default function Home() {
                 <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
+
           </section>
         </section>
         <section className='mx-20 my-10'>
           <div className='my-10 flex flex-row '>
             <div className='text-lg font-semibold'>Nominees</div>
-            <div className='my-auto mx-2'>We Need Your Vote</div>
+            <div className='my-auto mx-2'>We need your vote!</div>
           </div>
 
           <section className='flex flex-row justify-between'>
-            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden '>
+            <div className =' group hover:-translate-y-2  flex flex-col divide-y divide-gray-200 w-72 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out'>
+              <div className = 'relative flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 className='scale-100 absolute w-full h-full transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
+                <section className='opacity-0 group-hover:opacity-100 flex flex-col absolute justify-between my-5 w-full h-full px-5 pb-10 transition-all duration-300 ease-in-out'>
+                  <div className='flex flex-row stroke-white fill-white stroke text-white justify-between' >
+                    <div className='flex flex-row '>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.266333 10.967571 12.541024 8.3125 12.933594 L 8.3125 9.0898438 L 9.8652344 9.0898438 L 10.109375 7.5136719 L 8.3125 7.5136719 L 8.3125 6.6503906 C 8.3125 5.9953906 8.5256719 5.4140625 9.1386719 5.4140625 L 10.123047 5.4140625 L 10.123047 4.0371094 C 9.9500469 4.0141094 9.5845781 3.9628906 8.8925781 3.9628906 C 7.4485781 3.9628906 6.6015625 4.7258906 6.6015625 6.4628906 L 6.6015625 7.5117188 L 5.1171875 7.5117188 L 5.1171875 9.0898438 L 6.6035156 9.0898438 L 6.6035156 12.919922 C 3.9897868 12.492118 2 10.237066 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.543488 10.543488 13 7.5 13 C 4.4565116 13 2 10.543488 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z M 9.1113281 4.7519531 C 8.2683281 4.7519531 7.5820312 5.4353438 7.5820312 6.2773438 C 7.5820312 6.4343438 7.6367188 6.5395312 7.6367188 6.6445312 C 6.3727188 6.5925313 5.3229375 5.895 4.5859375 5 C 4.4279375 5.211 4.375 5.4733281 4.375 5.7363281 C 4.375 6.2623281 4.5799531 6.8419375 5.0019531 7.2109375 C 4.7219531 7.1729375 4.586 7.105 4.375 7 C 4.375 7.737 4.8442969 8.2248125 5.5292969 8.3828125 C 5.5292969 8.3828125 5.2654219 8.4355469 5.1074219 8.4355469 C 4.9874219 8.4355469 4.84375 8.3828125 4.84375 8.3828125 C 5.05475 8.9618125 5.580625 9.4335938 6.265625 9.4335938 C 5.739625 9.8025937 5.0541406 10 4.3691406 10 L 4 10 C 4.375 10.5 5.2494063 10.750953 6.3164062 10.751953 C 9.1074063 10.751953 10.636719 8.4355469 10.636719 6.4355469 L 10.636719 6.2246094 C 10.900719 6.0136094 11.163 5.7505469 11.375 5.4355469 C 11.059 5.5935469 10.796469 5.6442656 10.480469 5.6972656 C 10.796469 5.4872656 11.059062 5.2234688 11.164062 4.8554688 C 10.901063 5.0124687 10.585797 5.1716094 10.216797 5.2246094 C 9.9527969 4.9096094 9.5333281 4.7519531 9.1113281 4.7519531 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 5.5 5 C 4.125 5 3 6.125 3 7.5 C 3 8.875 4.125 10 5.5 10 C 6.875 10 8 8.875 8 7.5 L 8 7 L 6 7 L 6 8 L 6.796875 8 C 6.578125 8.554688 6.136719 9 5.5 9 C 4.664063 9 4 8.335938 4 7.5 C 4 6.664063 4.664063 6 5.5 6 C 5.882813 6 6.222656 6.140625 6.488281 6.371094 L 7.148438 5.621094 C 6.707031 5.234375 6.128906 5 5.5 5 Z M 10 6 L 10 7 L 9 7 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 12 8 L 12 7 L 11 7 L 11 6 Z"/></svg>                      
+                    </div> 
+                    <div className='flex '>
+                     <div className='rounded-full px-2 text-sm border border-white'>Collect</div>                       
+                    </div> 
+                  </div>
+                  <div className='fill-white stroke-white flex justify-end'>
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="32px" height="32px"><path d="M 7.5 1.035156 C 3.917969 1.035156 1 3.941406 1 7.515625 L 1 8 L 2 8 L 2 7.515625 C 2 4.484375 4.457031 2.035156 7.5 2.035156 C 9.132813 2.035156 10.589844 2.75 11.59375 3.875 L 10.464844 5 L 14 5 L 14 1.476563 L 12.300781 3.167969 C 11.113281 1.863281 9.40625 1.035156 7.5 1.035156 Z M 13 7 L 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 5.859375 13 4.402344 12.277344 3.394531 11.140625 L 4.535156 10 L 1 10 L 1 13.535156 L 2.6875 11.847656 C 3.878906 13.164063 5.589844 14 7.5 14 C 11.085938 14 14 11.085938 14 7.5 L 14 7 Z"/></svg>
+                  </div>
+                </section>
               </div>
               <div className = 'flex flex-col mx-5'>
                 <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
@@ -256,15 +332,30 @@ export default function Home() {
                 <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden '>
+            <div className =' group hover:-translate-y-2  flex flex-col divide-y divide-gray-200 w-72 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out'>
+              <div className = 'relative flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 className='scale-100 absolute w-full h-full transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
+                <section className='opacity-0 group-hover:opacity-100 flex flex-col absolute justify-between my-5 w-full h-full px-5 pb-10 transition-all duration-300 ease-in-out'>
+                  <div className='flex flex-row stroke-white fill-white stroke text-white justify-between' >
+                    <div className='flex flex-row '>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.266333 10.967571 12.541024 8.3125 12.933594 L 8.3125 9.0898438 L 9.8652344 9.0898438 L 10.109375 7.5136719 L 8.3125 7.5136719 L 8.3125 6.6503906 C 8.3125 5.9953906 8.5256719 5.4140625 9.1386719 5.4140625 L 10.123047 5.4140625 L 10.123047 4.0371094 C 9.9500469 4.0141094 9.5845781 3.9628906 8.8925781 3.9628906 C 7.4485781 3.9628906 6.6015625 4.7258906 6.6015625 6.4628906 L 6.6015625 7.5117188 L 5.1171875 7.5117188 L 5.1171875 9.0898438 L 6.6035156 9.0898438 L 6.6035156 12.919922 C 3.9897868 12.492118 2 10.237066 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.543488 10.543488 13 7.5 13 C 4.4565116 13 2 10.543488 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z M 9.1113281 4.7519531 C 8.2683281 4.7519531 7.5820312 5.4353438 7.5820312 6.2773438 C 7.5820312 6.4343438 7.6367188 6.5395312 7.6367188 6.6445312 C 6.3727188 6.5925313 5.3229375 5.895 4.5859375 5 C 4.4279375 5.211 4.375 5.4733281 4.375 5.7363281 C 4.375 6.2623281 4.5799531 6.8419375 5.0019531 7.2109375 C 4.7219531 7.1729375 4.586 7.105 4.375 7 C 4.375 7.737 4.8442969 8.2248125 5.5292969 8.3828125 C 5.5292969 8.3828125 5.2654219 8.4355469 5.1074219 8.4355469 C 4.9874219 8.4355469 4.84375 8.3828125 4.84375 8.3828125 C 5.05475 8.9618125 5.580625 9.4335938 6.265625 9.4335938 C 5.739625 9.8025937 5.0541406 10 4.3691406 10 L 4 10 C 4.375 10.5 5.2494063 10.750953 6.3164062 10.751953 C 9.1074063 10.751953 10.636719 8.4355469 10.636719 6.4355469 L 10.636719 6.2246094 C 10.900719 6.0136094 11.163 5.7505469 11.375 5.4355469 C 11.059 5.5935469 10.796469 5.6442656 10.480469 5.6972656 C 10.796469 5.4872656 11.059062 5.2234688 11.164062 4.8554688 C 10.901063 5.0124687 10.585797 5.1716094 10.216797 5.2246094 C 9.9527969 4.9096094 9.5333281 4.7519531 9.1113281 4.7519531 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 5.5 5 C 4.125 5 3 6.125 3 7.5 C 3 8.875 4.125 10 5.5 10 C 6.875 10 8 8.875 8 7.5 L 8 7 L 6 7 L 6 8 L 6.796875 8 C 6.578125 8.554688 6.136719 9 5.5 9 C 4.664063 9 4 8.335938 4 7.5 C 4 6.664063 4.664063 6 5.5 6 C 5.882813 6 6.222656 6.140625 6.488281 6.371094 L 7.148438 5.621094 C 6.707031 5.234375 6.128906 5 5.5 5 Z M 10 6 L 10 7 L 9 7 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 12 8 L 12 7 L 11 7 L 11 6 Z"/></svg>                      
+                    </div> 
+                    <div className='flex '>
+                     <div className='rounded-full px-2 text-sm border border-white'>Collect</div>                       
+                    </div> 
+                  </div>
+                  <div className='fill-white stroke-white flex justify-end'>
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="32px" height="32px"><path d="M 7.5 1.035156 C 3.917969 1.035156 1 3.941406 1 7.515625 L 1 8 L 2 8 L 2 7.515625 C 2 4.484375 4.457031 2.035156 7.5 2.035156 C 9.132813 2.035156 10.589844 2.75 11.59375 3.875 L 10.464844 5 L 14 5 L 14 1.476563 L 12.300781 3.167969 C 11.113281 1.863281 9.40625 1.035156 7.5 1.035156 Z M 13 7 L 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 5.859375 13 4.402344 12.277344 3.394531 11.140625 L 4.535156 10 L 1 10 L 1 13.535156 L 2.6875 11.847656 C 3.878906 13.164063 5.589844 14 7.5 14 C 11.085938 14 14 11.085938 14 7.5 L 14 7 Z"/></svg>
+                  </div>
+                </section>
               </div>
               <div className = 'flex flex-col mx-5'>
                 <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
@@ -285,15 +376,30 @@ export default function Home() {
                 <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden '>
+            <div className =' group hover:-translate-y-2  flex flex-col divide-y divide-gray-200 w-72 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out'>
+              <div className = 'relative flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 className='scale-100 absolute w-full h-full transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
+                <section className='opacity-0 group-hover:opacity-100 flex flex-col absolute justify-between my-5 w-full h-full px-5 pb-10 transition-all duration-300 ease-in-out'>
+                  <div className='flex flex-row stroke-white fill-white stroke text-white justify-between' >
+                    <div className='flex flex-row '>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.266333 10.967571 12.541024 8.3125 12.933594 L 8.3125 9.0898438 L 9.8652344 9.0898438 L 10.109375 7.5136719 L 8.3125 7.5136719 L 8.3125 6.6503906 C 8.3125 5.9953906 8.5256719 5.4140625 9.1386719 5.4140625 L 10.123047 5.4140625 L 10.123047 4.0371094 C 9.9500469 4.0141094 9.5845781 3.9628906 8.8925781 3.9628906 C 7.4485781 3.9628906 6.6015625 4.7258906 6.6015625 6.4628906 L 6.6015625 7.5117188 L 5.1171875 7.5117188 L 5.1171875 9.0898438 L 6.6035156 9.0898438 L 6.6035156 12.919922 C 3.9897868 12.492118 2 10.237066 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.543488 10.543488 13 7.5 13 C 4.4565116 13 2 10.543488 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z M 9.1113281 4.7519531 C 8.2683281 4.7519531 7.5820312 5.4353438 7.5820312 6.2773438 C 7.5820312 6.4343438 7.6367188 6.5395312 7.6367188 6.6445312 C 6.3727188 6.5925313 5.3229375 5.895 4.5859375 5 C 4.4279375 5.211 4.375 5.4733281 4.375 5.7363281 C 4.375 6.2623281 4.5799531 6.8419375 5.0019531 7.2109375 C 4.7219531 7.1729375 4.586 7.105 4.375 7 C 4.375 7.737 4.8442969 8.2248125 5.5292969 8.3828125 C 5.5292969 8.3828125 5.2654219 8.4355469 5.1074219 8.4355469 C 4.9874219 8.4355469 4.84375 8.3828125 4.84375 8.3828125 C 5.05475 8.9618125 5.580625 9.4335938 6.265625 9.4335938 C 5.739625 9.8025937 5.0541406 10 4.3691406 10 L 4 10 C 4.375 10.5 5.2494063 10.750953 6.3164062 10.751953 C 9.1074063 10.751953 10.636719 8.4355469 10.636719 6.4355469 L 10.636719 6.2246094 C 10.900719 6.0136094 11.163 5.7505469 11.375 5.4355469 C 11.059 5.5935469 10.796469 5.6442656 10.480469 5.6972656 C 10.796469 5.4872656 11.059062 5.2234688 11.164062 4.8554688 C 10.901063 5.0124687 10.585797 5.1716094 10.216797 5.2246094 C 9.9527969 4.9096094 9.5333281 4.7519531 9.1113281 4.7519531 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 5.5 5 C 4.125 5 3 6.125 3 7.5 C 3 8.875 4.125 10 5.5 10 C 6.875 10 8 8.875 8 7.5 L 8 7 L 6 7 L 6 8 L 6.796875 8 C 6.578125 8.554688 6.136719 9 5.5 9 C 4.664063 9 4 8.335938 4 7.5 C 4 6.664063 4.664063 6 5.5 6 C 5.882813 6 6.222656 6.140625 6.488281 6.371094 L 7.148438 5.621094 C 6.707031 5.234375 6.128906 5 5.5 5 Z M 10 6 L 10 7 L 9 7 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 12 8 L 12 7 L 11 7 L 11 6 Z"/></svg>                      
+                    </div> 
+                    <div className='flex '>
+                     <div className='rounded-full px-2 text-sm border border-white'>Collect</div>                       
+                    </div> 
+                  </div>
+                  <div className='fill-white stroke-white flex justify-end'>
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="32px" height="32px"><path d="M 7.5 1.035156 C 3.917969 1.035156 1 3.941406 1 7.515625 L 1 8 L 2 8 L 2 7.515625 C 2 4.484375 4.457031 2.035156 7.5 2.035156 C 9.132813 2.035156 10.589844 2.75 11.59375 3.875 L 10.464844 5 L 14 5 L 14 1.476563 L 12.300781 3.167969 C 11.113281 1.863281 9.40625 1.035156 7.5 1.035156 Z M 13 7 L 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 5.859375 13 4.402344 12.277344 3.394531 11.140625 L 4.535156 10 L 1 10 L 1 13.535156 L 2.6875 11.847656 C 3.878906 13.164063 5.589844 14 7.5 14 C 11.085938 14 14 11.085938 14 7.5 L 14 7 Z"/></svg>
+                  </div>
+                </section>
               </div>
               <div className = 'flex flex-col mx-5'>
                 <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
@@ -314,15 +420,30 @@ export default function Home() {
                 <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
-            <div className ='flex flex-col divide-y divide-gray-200 w-72 shadow-xl '>
-              <div className = 'flex item-center justify-center relative overflow-hidden '>
+            <div className =' group hover:-translate-y-2  flex flex-col divide-y divide-gray-200 w-72 shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out'>
+              <div className = 'relative flex item-center justify-center relative overflow-hidden bg-black '>
                 <Image
-                 className='scale-100 absolute w-full h-full transition-all duration-500 ease-in-out hover:scale-125'
+                 className='scale-100 absolute w-full h-full transition-all duration-300 ease-in-out group-hover:scale-125 group-hover:opacity-50'
                  src = "/mrBeast.png"
                  height = {220}
                  width = {290}
                  alt = 'search logo'               
                 />
+                <section className='opacity-0 group-hover:opacity-100 flex flex-col absolute justify-between my-5 w-full h-full px-5 pb-10 transition-all duration-300 ease-in-out'>
+                  <div className='flex flex-row stroke-white fill-white stroke text-white justify-between' >
+                    <div className='flex flex-row '>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.266333 10.967571 12.541024 8.3125 12.933594 L 8.3125 9.0898438 L 9.8652344 9.0898438 L 10.109375 7.5136719 L 8.3125 7.5136719 L 8.3125 6.6503906 C 8.3125 5.9953906 8.5256719 5.4140625 9.1386719 5.4140625 L 10.123047 5.4140625 L 10.123047 4.0371094 C 9.9500469 4.0141094 9.5845781 3.9628906 8.8925781 3.9628906 C 7.4485781 3.9628906 6.6015625 4.7258906 6.6015625 6.4628906 L 6.6015625 7.5117188 L 5.1171875 7.5117188 L 5.1171875 9.0898438 L 6.6035156 9.0898438 L 6.6035156 12.919922 C 3.9897868 12.492118 2 10.237066 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.9160714 1 1 3.9160714 1 7.5 C 1 11.083929 3.9160714 14 7.5 14 C 11.083929 14 14 11.083929 14 7.5 C 14 3.9160714 11.083929 1 7.5 1 z M 7.5 2 C 10.543488 2 13 4.4565116 13 7.5 C 13 10.543488 10.543488 13 7.5 13 C 4.4565116 13 2 10.543488 2 7.5 C 2 4.4565116 4.4565116 2 7.5 2 z M 9.1113281 4.7519531 C 8.2683281 4.7519531 7.5820312 5.4353438 7.5820312 6.2773438 C 7.5820312 6.4343438 7.6367188 6.5395312 7.6367188 6.6445312 C 6.3727188 6.5925313 5.3229375 5.895 4.5859375 5 C 4.4279375 5.211 4.375 5.4733281 4.375 5.7363281 C 4.375 6.2623281 4.5799531 6.8419375 5.0019531 7.2109375 C 4.7219531 7.1729375 4.586 7.105 4.375 7 C 4.375 7.737 4.8442969 8.2248125 5.5292969 8.3828125 C 5.5292969 8.3828125 5.2654219 8.4355469 5.1074219 8.4355469 C 4.9874219 8.4355469 4.84375 8.3828125 4.84375 8.3828125 C 5.05475 8.9618125 5.580625 9.4335938 6.265625 9.4335938 C 5.739625 9.8025937 5.0541406 10 4.3691406 10 L 4 10 C 4.375 10.5 5.2494063 10.750953 6.3164062 10.751953 C 9.1074063 10.751953 10.636719 8.4355469 10.636719 6.4355469 L 10.636719 6.2246094 C 10.900719 6.0136094 11.163 5.7505469 11.375 5.4355469 C 11.059 5.5935469 10.796469 5.6442656 10.480469 5.6972656 C 10.796469 5.4872656 11.059062 5.2234688 11.164062 4.8554688 C 10.901063 5.0124687 10.585797 5.1716094 10.216797 5.2246094 C 9.9527969 4.9096094 9.5333281 4.7519531 9.1113281 4.7519531 z"/></svg>
+                      <svg className='mr-2' fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="24px" height="24px"><path d="M 7.5 1 C 3.917969 1 1 3.917969 1 7.5 C 1 11.082031 3.917969 14 7.5 14 C 11.082031 14 14 11.082031 14 7.5 C 14 3.917969 11.082031 1 7.5 1 Z M 7.5 2 C 10.542969 2 13 4.457031 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 4.457031 13 2 10.542969 2 7.5 C 2 4.457031 4.457031 2 7.5 2 Z M 5.5 5 C 4.125 5 3 6.125 3 7.5 C 3 8.875 4.125 10 5.5 10 C 6.875 10 8 8.875 8 7.5 L 8 7 L 6 7 L 6 8 L 6.796875 8 C 6.578125 8.554688 6.136719 9 5.5 9 C 4.664063 9 4 8.335938 4 7.5 C 4 6.664063 4.664063 6 5.5 6 C 5.882813 6 6.222656 6.140625 6.488281 6.371094 L 7.148438 5.621094 C 6.707031 5.234375 6.128906 5 5.5 5 Z M 10 6 L 10 7 L 9 7 L 9 8 L 10 8 L 10 9 L 11 9 L 11 8 L 12 8 L 12 7 L 11 7 L 11 6 Z"/></svg>                      
+                    </div> 
+                    <div className='flex '>
+                     <div className='rounded-full px-2 text-sm border border-white'>Collect</div>                       
+                    </div> 
+                  </div>
+                  <div className='fill-white stroke-white flex justify-end'>
+                    <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16" width="32px" height="32px"><path d="M 7.5 1.035156 C 3.917969 1.035156 1 3.941406 1 7.515625 L 1 8 L 2 8 L 2 7.515625 C 2 4.484375 4.457031 2.035156 7.5 2.035156 C 9.132813 2.035156 10.589844 2.75 11.59375 3.875 L 10.464844 5 L 14 5 L 14 1.476563 L 12.300781 3.167969 C 11.113281 1.863281 9.40625 1.035156 7.5 1.035156 Z M 13 7 L 13 7.5 C 13 10.542969 10.542969 13 7.5 13 C 5.859375 13 4.402344 12.277344 3.394531 11.140625 L 4.535156 10 L 1 10 L 1 13.535156 L 2.6875 11.847656 C 3.878906 13.164063 5.589844 14 7.5 14 C 11.085938 14 14 11.085938 14 7.5 L 14 7 Z"/></svg>
+                  </div>
+                </section>
               </div>
               <div className = 'flex flex-col mx-5'>
                 <span className='font-serif my-2'>Karina Sirqueira Gallery</span>
@@ -343,6 +464,7 @@ export default function Home() {
                 <p className='font-serif text-xs my-2 mx-2'>BY KARINA SIRQUEIRA</p>
               </div>
             </div>
+
           </section>
         </section>
       </section>
